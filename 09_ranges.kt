@@ -7,7 +7,6 @@ fun main(args: Array<String>) {
 
     var r1 = 1..5
     // This range contains number 1, 2, 3, 4, 5
-
     val r2 = 5 downTo 1
     // This range contains number 5, 4, 3, 2, 1
 
@@ -18,6 +17,7 @@ fun main(args: Array<String>) {
     // This range contains the values from "a", "b", "c" . . . "z"
 
     var isPresent = 'c' in r4
+
 
     var countDown = 10.downTo(1)
     // This range contains number 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
